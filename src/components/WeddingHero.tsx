@@ -68,32 +68,7 @@ export const WeddingHero: React.FC = () => {
                 whiteSpace: "pre-line",
               }}
             >
-              {isSinhala ? config.couple.bride.parentsSi : config.couple.bride.parentsEn}
-            </p>
-            <p
-              className="mt-auto"
-              style={{
-                fontFamily: "var(--font-sinhala)",
-                fontWeight: 700,
-                color: "#8C6420",
-                fontSize: "clamp(1.7rem, 5.2vw, 2.5rem)",
-                lineHeight: 1.15,
-              }}
-            >
-              {isSinhala ? config.couple.bride.nameOnlySi : config.couple.bride.firstNameEn}
-            </p>
-          </div>
-
-          {/* Groom Intro */}
-          <div className="flex flex-col items-center gap-3">
-            <p
-              className="text-[0.95rem] leading-[1.8] sm:text-base"
-              style={{
-                fontFamily: "var(--font-sinhala)",
-                color: "#5A4A33",
-                whiteSpace: "pre-line",
-              }}
-            >
+              
               {isSinhala ? config.couple.groom.parentsSi : config.couple.groom.parentsEn}
             </p>
             <p
@@ -107,6 +82,32 @@ export const WeddingHero: React.FC = () => {
               }}
             >
               {isSinhala ? config.couple.groom.nameOnlySi : config.couple.groom.firstNameEn}
+            </p>
+          </div>
+
+          {/* Groom Intro */}
+          <div className="flex flex-col items-center gap-3">
+            <p
+              className="text-[0.95rem] leading-[1.8] sm:text-base"
+              style={{
+                fontFamily: "var(--font-sinhala)",
+                color: "#5A4A33",
+                whiteSpace: "pre-line",
+              }}
+            >
+              {isSinhala ? config.couple.bride.parentsSi : config.couple.bride.parentsEn}
+            </p>
+            <p
+              className="mt-auto"
+              style={{
+                fontFamily: "var(--font-sinhala)",
+                fontWeight: 700,
+                color: "#8C6420",
+                fontSize: "clamp(1.7rem, 5.2vw, 2.5rem)",
+                lineHeight: 1.15,
+              }}
+            >
+              {isSinhala ? config.couple.bride.nameOnlySi : config.couple.bride.firstNameEn}
             </p>
           </div>
         </div>
