@@ -126,3 +126,4 @@ To automatically forward RSVP submissions to a Google Sheet:
 GOOGLE_SHEETS_WEBHOOK_URL="https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"
 ```
 3. Whenever guests submit their RSVP, it is both securely saved locally in `data/rsvps.json` and forwarded to your Google Sheet.
+# kavi-ravi_Wedding-Invitaion
