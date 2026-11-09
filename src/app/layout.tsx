@@ -65,7 +65,7 @@ export default function RootLayout({
         "@type": "PostalAddress",
         streetAddress: "No. 110, Weeragula Road, Yakkala, Gampaha.",
         addressLocality: "Gampaha",
-        postalCode: "00200",
+        postalCode: "11870",
         addressCountry: "LK",
       },
     },
